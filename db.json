@@ -43,7 +43,7 @@
             ]
           },
           {
-            "_id": "5a5e3168c6bf40f2c1235cd6",
+            "_id": "5a5e3168c6bf40f2c1235cd7",
             "title": "Renderizado condicional",
             "description": "Se utiliza cuando se necesita renderizar un componente en función de una condición.",
             "status": "pending",
@@ -56,7 +56,7 @@
             ]
           },
           {
-            "_id": "5a5e3168c6bf40f2c1235cd6",
+            "_id": "5a5e3168c6bf40f2rg2t5cd6",
             "title": "API Context",
             "description": "Permite gestionar el estado global de una aplicación.",
             "status": "pending",
