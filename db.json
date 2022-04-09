@@ -4,6 +4,7 @@
       "react": {
         "title": "React",
         "description": "React es una librería de JavaScript para construir interfaces de usuario.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMx8zZ17sfPwZ1iU_ouLwzHrivQx2lqrHkw&usqp=CAU",
         "sections": [
           {
             "name": "Fundamentos",
