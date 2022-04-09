@@ -71,6 +71,77 @@
             ]
           }
         ]
+      },
+      "node js": {
+        "title": "Node js",
+        "description": "Node js es un runtime para el desarrollo de aplicaciones en JavaScript del lado del servidor.",
+        "img": "https://cdn-icons-png.flaticon.com/512/919/919825.png",
+        "sections": [
+          {
+            "name": "Fundamentos",
+            "color": "#FFC107"
+          },
+          {
+            "name": "Intermedio",
+            "color": "#FF9800"
+          },
+          {
+            "name": "Avanzado",
+            "color": "#FF5722"
+          },
+          {
+            "name": "Ecosistema",
+            "color": "#795548"
+          }
+        ],
+        "topics": [
+          {
+            "_id": "5a5e3168c6bf40f2c1235cd6",
+            "title": "File System",
+            "description": "",
+            "status": "pending",
+            "section": "Fundamentos",
+            "resources": [
+              {
+                "name": "useState",
+                "description": "Permite crear estados en un componente.",
+                "urlResource": "https://reactjs.org/docs/hooks-reference.html#usestate"
+              },
+              {
+                "name": "useEffect",
+                "description": "Permite crear estados en un componente.",
+                "urlResource": "https://reactjs.org/docs/hooks-reference.html#useeffect"
+              }
+            ]
+          },
+          {
+            "_id": "5a5e3168c6bf40f2c1235cd7",
+            "title": "Aplicaciones CLI",
+            "description": "Se utiliza cuando se necesita renderizar un componente en función de una condición.",
+            "status": "pending",
+            "section": "Fundamentos",
+            "resources": [
+              {
+                "name": "Renderizado condicional",
+                "urlResource": "https://reactjs.org/docs/hooks-reference.html#usestate"
+              }
+            ]
+          },
+          {
+            "_id": "5a5e3168c6bf40f2rg2t5cd6",
+            "title": "Testing",
+            "description": "Permite gestionar el estado global de una aplicación.",
+            "status": "pending",
+            "section": "Avanzado",
+            "resources": [
+              {
+                "name": "useContext",
+                "description": "Es un hook que permite acceder a los datos del contexto.",
+                "urlResource": "https://reactjs.org/docs/hooks-reference.html#usecontext"
+              }
+            ]
+          }
+        ]
       }
     }
   }
