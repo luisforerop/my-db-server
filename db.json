@@ -30,6 +30,31 @@
             "description": "",
             "status": "pending",
             "section": "Fundamentos",
+            "subtopics": [
+              {
+                "_id": "5a5e3168c6bf40f331235cd6",
+                "title": "Use State",
+                "description": "Permite crear estados en un componente.",
+                "resources": [
+                  {
+                    "name": "Documentación oficial",
+                    "urlResource": "https://reactjs.org/docs/hooks-reference.html#usestate"
+                  }
+                ]
+              },
+              {
+                "_id": "5a5e3168dfbf40f2c1235cd6",
+                "title": "Use State",
+                "description": "Permite crear estados en un componente.",
+                "resources": [
+                  {
+                    "name": "Documentación oficial",
+                    "description": "Permite crear estados en un componente.",
+                    "urlResource": "https://reactjs.org/docs/hooks-reference.html#useeffect"
+                  }
+                ]
+              }
+            ],
             "resources": [
               {
                 "name": "useState",
