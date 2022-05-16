@@ -3,7 +3,7 @@
     "techs-project": {
       "react": {
         "title": "React",
-        "description": "React es una librería de JavaScript para construir interfaces de usuario.",
+        "description": "React es una librería de JavaScript para construir interfaces de usuario interactivas y de forma sencilla. Además te ofrece la posibilidad de crear aplicaciones reutilizables, escalables y para todo: aplicaciones web (React puro o usando Next JS), aplicaciones nativas multiplataforma (React Native) y aplicaciones de escritorio (Elecron y Proton).",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMx8zZ17sfPwZ1iU_ouLwzHrivQx2lqrHkw&usqp=CAU",
         "sections": [
           {
@@ -25,12 +25,110 @@
         ],
         "topics": [
           {
+            "_id": "5a5e3168c6bf40f2c1235cd61",
+            "title": "JSX",
+            "description": "Es \"azúcar sintáctico\", es decir, una forma de escribir la interfaz de usuario que vamos a crear de una forma más visual y sencilla.",
+            "status": "pending",
+            "section": "Fundamentos",
+            "resources": [
+              {
+                "name": "Documentación oficial",
+                "urlResource": "https://es.reactjs.org/docs/hooks-intro.html"
+              },
+              {
+                "name": "Curso de React JS de Midudev",
+                "urlResource": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC"
+              },
+              {
+                "name": "Curso de React JS de Jon Mircha",
+                "urlResource": "https://www.youtube.com/watch?v=EH4L-EYt63Y&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=3"
+              }
+            ]
+          },
+          {
+            "_id": "5a5e3168c6bf40f2c1235cd62",
+            "title": "Componentes",
+            "description": "Son piezas de código que nos permiten separar la interfaz de usuario en piezas independientes y reutilizables. Casi cualquier elemento que veas en una interfaz de usuario es un componente. Por ejemplo, una lista de productos es un componente, que tiene como hijos los diferentes productos, los cuales son componentes que pueden tener componentes más básicos como una imagen, el precio y la calificación del producto.",
+            "status": "pending",
+            "section": "Fundamentos",
+            "resources": [
+              {
+                "name": "Documentación oficial",
+                "urlResource": "https://es.reactjs.org/docs/components-and-props.html"
+              },
+              {
+                "name": "Curso de React JS de Midudev",
+                "urlResource": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC"
+              },
+              {
+                "name": "Componentes - curso de React JS de Jon Mircha",
+                "urlResource": "https://www.youtube.com/watch?v=SQbZ9dThB80&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=4"
+              }
+            ]
+          },
+          {
+            "_id": "5a5e3168c6bf40f2c1235cd63",
+            "title": "Estado, props y ciclo de vida de un componente",
+            "description": "Los componentes pueden tener un estado, que es una variable que se actualiza automáticamente cuando se ejecuta un evento. Esto permite que los componentes sean reactivos, y que se puedan actualizar automáticamente en función de la interacción del usuario. Adicionalmente, un componente puede recibir datos de forma externa, lo que se conoce como props. Tanto props como estado afectan el renderizado de un componente.",
+            "status": "pending",
+            "section": "Fundamentos",
+            "resources": [
+              {
+                "name": "Documentación oficial",
+                "urlResource": "https://es.reactjs.org/docs/state-and-lifecycle.html"
+              },
+              {
+                "name": "Curso de React JS de Midudev",
+                "urlResource": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC"
+              },
+              {
+                "name": "Props - curso de React JS de Jon Mircha",
+                "urlResource": "https://www.youtube.com/watch?v=FOWO07pImCg&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=5"
+              },
+              {
+                "name": "Estado - curso de React JS de Jon Mircha",
+                "urlResource": "https://www.youtube.com/watch?v=8PaMmyK6vBM&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=6"
+              }
+            ]
+          },
+          {
+            "_id": "5a5e3168c6bf40f2c1235cd7",
+            "title": "Renderizado condicional",
+            "description": "Puedes renderizar un componente cada vez que se requiera, dependiendo de una condición. Por ejemplo, puedes renderizar un componente si el usuario está logueado y otro en caso contrario.",
+            "status": "pending",
+            "section": "Fundamentos",
+            "resources": [
+              {
+                "name": "Documentación oficial",
+                "urlResource": "https://es.reactjs.org/docs/conditional-rendering.html"
+              },
+              {
+                "name": "Curso de React JS de Midudev",
+                "urlResource": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC"
+              },
+              {
+                "name": "Renderizado condicional - curso de React JS de Jon Mircha",
+                "urlResource": "https://www.youtube.com/watch?v=iNAQ3MFjNos&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=7"
+              }
+            ]
+          },
+          {
             "_id": "5a5e3168c6bf40f2c1235cd6",
             "title": "Hooks básicos",
-            "description": "",
+            "description": "Los hooks son una característica que apareció desde React 16.8. Estos permiten usar el estado y otras características de React en componentes funcionales, es decir, sin escribir una clase.",
             "status": "pending",
             "section": "Fundamentos",
             "subtopics": [
+              {
+                "_id": "5a5e3168c6bf40f33123fer6",
+                "title": "Introducción",
+                "resources": [
+                  {
+                    "name": "Documentación oficial",
+                    "urlResource": "https://es.reactjs.org/docs/hooks-intro.html"
+                  }
+                ]
+              },
               {
                 "_id": "5a5e3168c6bf40f331235cd6",
                 "title": "Use State",
@@ -44,7 +142,7 @@
               },
               {
                 "_id": "5a5e3168dfbf40f2c1235cd6",
-                "title": "Use State",
+                "title": "Use Effect",
                 "description": "Permite crear estados en un componente.",
                 "resources": [
                   {
@@ -57,41 +155,41 @@
             ],
             "resources": [
               {
-                "name": "useState",
-                "description": "Permite crear estados en un componente.",
-                "urlResource": "https://reactjs.org/docs/hooks-reference.html#usestate"
+                "name": "Curso gratuito de react midudev",
+                "urlResource": "https://www.youtube.com/watch?v=QBLbXgeXMU8&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC&index=2"
               },
               {
-                "name": "useEffect",
-                "description": "Permite crear estados en un componente.",
-                "urlResource": "https://reactjs.org/docs/hooks-reference.html#useeffect"
+                "name": "Bootcamp gratuito de react midudev",
+                "urlResource": "https://www.youtube.com/watch?v=wTpuKOhGfJE&list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7"
+              },
+              {
+                "name": "Curso gratuito de react Jon Mircha",
+                "urlResource": "https://www.youtube.com/watch?v=MPLN1ahXgcs&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk"
+              },
+              {
+                "name": "Curso gratuito de react Free code camp",
+                "urlResource": "https://www.youtube.com/watch?v=6Jfk8ic3KVk"
               }
             ]
           },
           {
-            "_id": "5a5e3168c6bf40f2c1235cd7",
-            "title": "Renderizado condicional",
-            "description": "Se utiliza cuando se necesita renderizar un componente en función de una condición.",
+            "_id": "5a5e3168c6bf4789o1235cd7",
+            "title": "Trabajando listas",
+            "description": "Es muy común trabajar con listas de items, por ejemplo, imágenes. Un ejemplo claro son las imágenes de un feed de instragram, y renderizarlas es bastante sencillo. Para ello solo debemos iterar sobre nuestro array de referencia usando el método de array map.",
             "status": "pending",
             "section": "Fundamentos",
             "resources": [
               {
-                "name": "Renderizado condicional",
-                "urlResource": "https://reactjs.org/docs/hooks-reference.html#usestate"
-              }
-            ]
-          },
-          {
-            "_id": "5a5e3168c6bf40f2rg2t5cd6",
-            "title": "API Context",
-            "description": "Permite gestionar el estado global de una aplicación.",
-            "status": "pending",
-            "section": "Avanzado",
-            "resources": [
+                "name": "Documentación oficial",
+                "urlResource": "https://es.reactjs.org/docs/lists-and-keys.html"
+              },
               {
-                "name": "useContext",
-                "description": "Es un hook que permite acceder a los datos del contexto.",
-                "urlResource": "https://reactjs.org/docs/hooks-reference.html#usecontext"
+                "name": "Curso de React JS de Midudev",
+                "urlResource": "https://www.youtube.com/watch?v=QBLbXgeXMU8&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC&index=2"
+              },
+              {
+                "name": "Renderizado de elementos - curso de React JS de Jon Mircha",
+                "urlResource": "https://www.youtube.com/watch?v=4lnMpoednJw&list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk&index=8"
               }
             ]
           }
